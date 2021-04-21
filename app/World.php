@@ -971,6 +971,8 @@ abstract class World
                 }
             }
 
+            $rom->setFakeBoots(true);
+
             if ($save) {
                 $hash = $this->saveSeedRecord();
 

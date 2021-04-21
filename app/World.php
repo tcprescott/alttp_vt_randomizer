@@ -1094,6 +1094,7 @@ abstract class World
         $rom->setFreeItemTextMode($this->config('rom.freeItemText', 0x00));
         $rom->setFreeItemMenu($this->config('rom.freeItemMenu', 0x00));
         $rom->setDiggingGameRng(get_random_int(1, 30));
+        $rom->setFakeBoots(true);
 
         $rom->writeRNGBlock(function () {
             return get_random_int(0, 0x100);

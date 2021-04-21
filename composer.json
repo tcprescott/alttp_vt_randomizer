@@ -47,11 +47,11 @@
       "type": "package",
       "package": {
         "name": "z3/randomizer",
-        "version": "31.0.8",
+        "version": "31.0.8.1",
         "source": {
-          "url": "https://github.com/KatDevsGames/z3randomizer",
+          "url": "https://github.com/Bonta0/z3randomizer",
           "type": "git",
-          "reference": "37f7125198db2971fe2fbb84792cbb111a689749"
+          "reference": "fakeboots"
         }
       }
     },

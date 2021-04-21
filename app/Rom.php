@@ -12,8 +12,8 @@ use Log;
  */
 class Rom
 {
-    const BUILD = '2021-02-18';
-    const HASH = 'daefb54a0ad81808f8d8790eeeb4d3e6';
+    const BUILD = '2021-04-22';
+    const HASH = '8c0915b7fa4c5c3a1aea33878b25417d';
     const SIZE = 2097152;
 
     private $tmp_file;
@@ -2864,6 +2864,20 @@ class Rom
     public function setGanonsTowerOpen(bool $open = false): self
     {
         $this->write(0x18008C, pack('C', $open ? 0x01 : 0x00));
+
+        return $this;
+    }
+
+    /**
+     * Set starting with Fake Boots.
+     *
+     * @param bool $enable
+     *
+     * @return $this
+     */
+    public function setFakeBoots(bool $enable = false): self
+    {
+        $this->write(0x18008E, pack('C*', $enable ? 0x01 : 0x00));
 
         return $this;
     }

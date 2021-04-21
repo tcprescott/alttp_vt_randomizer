@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62c2a01d0c0957027c3a54fba5584dab",
+    "content-hash": "fea51302d7264493bcec74e93cff5599",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -6981,11 +6981,11 @@
         },
         {
             "name": "z3/randomizer",
-            "version": "31.0.8",
+            "version": "31.0.8.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/KatDevsGames/z3randomizer",
-                "reference": "37f7125198db2971fe2fbb84792cbb111a689749"
+                "url": "https://github.com/Bonta0/z3randomizer",
+                "reference": "fakeboots"
             },
             "type": "library"
         }
